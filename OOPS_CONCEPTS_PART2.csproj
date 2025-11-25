@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>RemotingSystem.Program3</StartupObject>
+    <StartupObject>RuntimePolyContainer.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,7 +52,10 @@
     <Compile Include="1.Inheritance\InterfaceInheritance1.cs" />
     <Compile Include="Abstraction\Vehicle.cs" />
     <Compile Include="Implementation\TvControlSystems.cs" />
+    <Compile Include="Polymorphism\Compiletimepoly_Practice.cs" />
     <Compile Include="Polymorphism\CompileTime_Polymorphism.cs" />
+    <Compile Include="Polymorphism\Runtime.cs" />
+    <Compile Include="Polymorphism\Runtime_Poly_Practicecs.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
